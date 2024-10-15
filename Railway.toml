@@ -1,0 +1,8 @@
+# Esto es un archivo de configuración para Railway
+[build]
+  # Comando para instalar las dependencias
+  command = "pip install -r requirements.txt"
+
+[deploy]
+  # Comando para iniciar tu bot
+  command = "python mainbot.py"
